@@ -1,0 +1,164 @@
+
+.footer {
+    background-color: #1d1c1c;
+    color: rgb(205, 167, 114);
+    /* padding: 25px; */
+    text-align: center;
+}
+
+/* Change navbar link color on hover */
+.navbar .nav-link:hover {
+    color: rgb(205, 167, 114) !important; /* Set the color you want on hover */
+    transition: color 0.3s ease; /* Optional: smooth transition */
+}
+
+.shadow {
+    box-shadow: inset -1px -7px 28px 3px #1b1b1bec;;
+    padding: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+.mb-40 {
+    margin-bottom: 40px;
+  }
+.carousel {
+    margin-bottom: 50px ;
+}
+.about-container {
+    overflow: hidden;
+}
+
+.about-container image{
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    /* object-fit: cover; */
+} 
+
+
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px;
+    /* height: 60%; */
+}
+
+
+.btn .btn-primary{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav-item{
+    
+}
+
+
+/* Custom margin for sections *
+.container {
+    margin: 40px; /* Adds space between the container sections *
+}
+
+.row {
+    margin: 40px; /* Adds space between the rows 
+}
+
+/* If you want specific spacing for the welcome section *
+.welcome-title {
+    margin: 30px; /* Adds space after the welcome title *
+    padding: 10px;
+}
+
+/* Ensure cards have proper margin between them *
+.card {
+    margin-bottom: 30px; /* Adds space below the card *
+    padding: 10px;
+}
+
+/* Footer *
+.footer {
+    background-color: #0f0e0e;
+    color: rgb(202, 161, 105);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px; /* Space between last section and footer *
+}
+
+
+
+.carousel-item {
+    transition: transform 100ms ease, opacity 1s ease; /* Change 1s to your desired duration *
+    justify-content: center;
+}
+
+.slide-in-left {
+    opacity: 0; /* Start fully transparent *
+    transform: translateX(-20px); /* Start 20px off-screen to the left *
+    animation: slide-in-left 0.5s forwards; /* Trigger the animation *
+    
+}
+
+.slide-in-right {
+    opacity: 0; /* Start fully transparent *
+    transform: translateX(20px); /* Start 20px off-screen to the right *
+    animation: slide-in-right 0.5s forwards; /* Trigger the animation *
+}
+
+@keyframes slide-in-left {
+    to {
+        opacity: 1; /* End fully opaque *
+        transform: translateX(0); /* Move to original position *
+    }
+}
+
+@keyframes slide-in-right {
+    to {
+        opacity: 1; /* End fully opaque *
+        transform: translateX(0); /* Move to original position *
+    }
+}
+
+/* Optional: Add delay for staggered animation *
+.slide-in-left {
+    animation-delay: 0.2s; /* Delay for the left card *
+}
+
+.slide-in-right {
+    animation-delay: 0.4s; /* Delay for the right card *
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #007BFF; /* Bootstrap primary color *
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%; /* Ensures images are responsive *
+    height: auto;    /* Maintains aspect ratio *
+} */
